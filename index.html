@@ -9,13 +9,14 @@
   </head>
   <body>
     <header>
-      <button class="btn new">▶New Game</button>
+      <button class="btn new action-button">▶New Game</button>
       <button class="btn roll">🎲Roll Dice</button>
       <button class="btn hold">📥Hold</button>
     </header>
     <main>
-      <section class="player-active player--0">
+      <section class="player--0">
         <h2>Player 1</h2>
+        <input placeholder="Type Player1 Name + Enter" class="name--0 hidden" />
         <p class="score--0 global">0</p>
         <div class="current">
           <p class="win0">Current</p>
@@ -24,6 +25,7 @@
       </section>
       <section class="player--1">
         <h2>Player 2</h2>
+        <input placeholder="Type Player2 Name + Enter" class="name--1 hidden" />
         <p class="score--1 global">0</p>
         <div class="current">
           <p class="win1">Current</p>
