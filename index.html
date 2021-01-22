@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My pig game</title>
+  </head>
+  <body>
+    <header>
+      <button class="btn new">▶New Game</button>
+      <button class="btn roll">🎲Roll Dice</button>
+      <button class="btn hold">📥Hold</button>
+    </header>
+    <main>
+      <section class="player-active player--0">
+        <h2>Player 1</h2>
+        <p class="score--0 global">0</p>
+        <div class="current">
+          <p class="win0">Current</p>
+          <p class="current--0 number">0</p>
+        </div>
+      </section>
+      <section class="player--1">
+        <h2>Player 2</h2>
+        <p class="score--1 global">0</p>
+        <div class="current">
+          <p class="win1">Current</p>
+          <p class="current--1 number">0</p>
+        </div>
+      </section>
+      <img src="dice-5.png" alt="Dice image" class="dice hidden" />
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

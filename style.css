@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  height: 100vh;
+  background-color: rgb(224, 185, 185);
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+main {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  position: relative;
+  background-color: rgb(221, 144, 180);
+  border-radius: 1rem;
+}
+header {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto 20px auto;
+  background-color: rgb(175, 238, 196);
+  border-radius: 1rem;
+}
+section {
+  flex: 50%;
+  border: 2px solid rgb(150, 113, 116);
+  border-radius: 1rem;
+  margin: 5px;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+p {
+  text-align: center;
+  margin: 15px;
+}
+.current {
+  margin: 50px auto 50px auto;
+  background-color: rgb(170, 126, 129);
+  width: 130px;
+  padding: 10px;
+  border-radius: 1rem;
+}
+.number {
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(251, 255, 8);
+}
+
+.global {
+  font-size: 35px;
+  font-weight: 400;
+}
+img {
+  width: 100px;
+  position: absolute;
+  left: 45.5%;
+  top: 7rem;
+  border: 2px solid rgb(138, 108, 110);
+  border-radius: 0.5rem;
+}
+.btn {
+  margin: 30px 20px 30px 20px;
+  background-color: rgb(238, 234, 234);
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 12rem;
+  height: 40px;
+  border: 2px solid rgb(138, 108, 110);
+  border-radius: 5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:active {
+  background-color: rgb(204, 197, 197);
+  transition: 0.5s;
+}
+/* CLASSES FOR FUNCTIONALITY */
+.player-active {
+  background-color: rgba(248, 238, 238, 0.582);
+}
+.hidden {
+  display: none;
+}
+.player-winner {
+  background-color: rgba(105, 97, 97, 0.87);
+  color: rgb(250, 233, 233);
+}
+/* .new .roll .hold
+.player--0 .player--1
+.score--0 .score--1
+.current--0 .current--1
+.dice */
