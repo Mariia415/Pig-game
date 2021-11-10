@@ -91,9 +91,8 @@ btnRoll.addEventListener('click', function () {
       switchPlayer();
     } else {
       currentScore += diceRole;
-      document.querySelector(
-        `.current--${activePlayer}`
-      ).textContent = currentScore;
+      document.querySelector(`.current--${activePlayer}`).textContent =
+        currentScore;
     }
   }
 });
@@ -103,7 +102,7 @@ btnRoll.addEventListener('click', function () {
 btnHold.addEventListener('click', function () {
   if (playing) {
     scores[activePlayer] += currentScore;
-    if (scores[activePlayer] < 20) {
+    if (scores[activePlayer] < 100) {
       document.querySelector(`.score--${activePlayer}`).textContent =
         scores[activePlayer];
       switchPlayer();
